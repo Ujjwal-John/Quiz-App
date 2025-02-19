@@ -1,0 +1,72 @@
+/* Base Styles */
+.Resultcontainer {
+    width: 90%; /* Adjusts width for responsiveness */
+    max-width: 640px; /* Prevents excessive width */
+    background: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
+    text-align: center; /* Improves readability */
+}
+
+/* Heading Styles */
+.Resultcontainer h2 {
+    color: rgb(49, 42, 231);
+    font-size: 1.8rem;
+}
+
+.Resultcontainer h2 span {
+    color: rgb(16, 207, 19);
+}
+
+/* Paragraph Styling */
+.Resultcontainer p {
+    font-style: italic;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+/* Button Styling */
+.Resultcontainer button {
+    width: 100%;
+    max-width: 150px; /* Prevents stretching on larger screens */
+    height: 50px;
+    border-radius: 10px;
+    font-size: 1rem;
+    background-color: rgb(186, 139, 77);
+    color: aliceblue;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+.Resultcontainer button:hover {
+    background: rgb(158, 93, 69);
+    border: 1px solid black;
+}
+
+/* 🔹 Responsive Adjustments for Small Devices */
+@media (max-width: 480px) {
+    .Resultcontainer {
+        padding: 15px;
+        width: 95%;
+    }
+
+    .Resultcontainer h2 {
+        font-size: 1.5rem;
+    }
+
+    .Resultcontainer p {
+        font-size: 1rem;
+    }
+
+    .Resultcontainer button {
+        font-size: 0.9rem;
+        height: 45px;
+    }
+}
