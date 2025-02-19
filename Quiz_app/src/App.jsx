@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Quiz from './Components/Quiz'
 import QuizStart from './Components/QuizStart/QuizStart'
-import "./app.css"
+import "./App.css"
 
 
 const App = () => {
